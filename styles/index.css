@@ -10,3 +10,13 @@ html, body {
     background-color: #BDE0FE;
 
 }
+
+#platforms_menu { 
+    display: none;
+} 
+
+#platforms_menu { 
+    position: absolute; 
+    top: 570px; 
+    left: 700px;
+} 
