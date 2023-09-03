@@ -17,7 +17,7 @@ function showMenu(menuId)  {
 
 function hideMenu(menuId) {
     document.getElementById(menuId).style.display="none";
-    loaded = 0;
+    // loaded = 0;
 }
 
 function disableRefresh() {

@@ -32,6 +32,112 @@
                             </optgroup>
                         </select>
                     </div>
+
+                    <div id="frontend_menu"> 
+                        Frontend
+                        <select onchange="hideMenu('frontend_menu');">
+                            <optgroup label="Javascript">
+                                <option value="Novice">Novice</option>
+                                <option value="Advance">Advanced</option>
+                                <option value="Expert">Expert
+                            </optgroup>
+                            <optgroup label="ReactJS">
+                                <option value="Novice">Novice</option>
+                                <option value="Advance">Advanced</option>
+                                <option value="Expert">Expert
+                            </optgroup>
+                            <optgroup label="Angular JS">
+                                <option value="Novice">Novice</option>
+                                <option value="Advance">Advanced</option>
+                                <option value="Expert">Expert
+                            </optgroup>
+                        </select>
+                    </div>
+
+                    <div id="protocols_menu"> 
+                        Protocols
+                        <select onchange="hideMenu('protocols_menu');">
+                            <optgroup label="Authentication">
+                                <option value="Novice">Novice</option>
+                                <option value="Advance">Advanced</option>
+                                <option value="Expert">Expert
+                            </optgroup>
+                            <optgroup label="Authorization">
+                                <option value="Novice">Novice</option>
+                                <option value="Advance">Advanced</option>
+                                <option value="Expert">Expert
+                            </optgroup>
+                            <optgroup label="API">
+                                <option value="Novice">Novice</option>
+                                <option value="Advance">Advanced</option>
+                                <option value="Expert">Expert
+                            </optgroup>
+                        </select>
+                    </div>
+
+                    <div id="apis_menu"> 
+                        APIs
+                        <select onchange="hideMenu('apis_menu');">
+                            <optgroup label="Rest">
+                                <option value="Novice">Novice</option>
+                                <option value="Advance">Advanced</option>
+                                <option value="Expert">Expert
+                            </optgroup>
+                            <optgroup label="SOAP">
+                                <option value="Novice">Novice</option>
+                                <option value="Advance">Advanced</option>
+                                <option value="Expert">Expert
+                            </optgroup>
+                            <optgroup label="WebSockets">
+                                <option value="Novice">Novice</option>
+                                <option value="Advance">Advanced</option>
+                                <option value="Expert">Expert
+                            </optgroup>
+                        </select>
+                    </div>
+
+                    <div id="database_menu"> 
+                        Database
+                        <select onchange="hideMenu('database_menu');">
+                            <optgroup label="PostgreSQL">
+                                <option value="Novice">Novice</option>
+                                <option value="Advance">Advanced</option>
+                                <option value="Expert">Expert
+                            </optgroup>
+                            <optgroup label="MySQL">
+                                <option value="Novice">Novice</option>
+                                <option value="Advance">Advanced</option>
+                                <option value="Expert">Expert
+                            </optgroup>
+                            <optgroup label="NoSQL">
+                                <option value="Novice">Novice</option>
+                                <option value="Advance">Advanced</option>
+                                <option value="Expert">Expert
+                            </optgroup>
+                        </select>
+                    </div>
+
+
+                    <div id="backend_menu"> 
+                        Backend
+                        <select onchange="hideMenu('backend_menu');">
+                            <optgroup label="Python">
+                                <option value="Novice">Novice</option>
+                                <option value="Advance">Advanced</option>
+                                <option value="Expert">Expert
+                            </optgroup>
+                            <optgroup label="Java">
+                                <option value="Novice">Novice</option>
+                                <option value="Advance">Advanced</option>
+                                <option value="Expert">Expert
+                            </optgroup>
+                            <optgroup label="MongoDB">
+                                <option value="Novice">Novice</option>
+                                <option value="Advance">Advanced</option>
+                                <option value="Expert">Expert
+                            </optgroup>
+                        </select>
+                    </div>
                     <!-- onmouseout="hideMenu('platforms_menu');" -->
                     <map name="image_map">
                         <area alt="platforms" title="platforms" href="" 
@@ -39,18 +145,23 @@
                             coords="80,489 60,507 57,540 75,573 114,597 639,598 690,568 705,528 693,505 671,489 " 
                             shape="polygon">
                         <area alt="frontend" title="frontend" href="" 
+                            onclick="showMenu('frontend_menu');"
                             coords="85,260 58,240 57,206 90,150 165,94 269,54 396,43 522,62 633,114 690,174 706,223 687,255 673,263 " 
                             shape="polygon">
                         <area alt="protocols" title="protocols" href="" 
+                            onclick="showMenu('protocols_menu');"
                             coords="44,280 37,298 42,315 42,315 711,318 721,310 723,288 714,280 " 
                             shape="polygon">
                         <area alt="apis" title="apis" href="" 
+                            onclick="showMenu('apis_menu');"
                             coords="54,333 56,362 102,383 152,382 202,364 221,362 266,381 327,381 369,363 388,363 423,380 478,384 517,375 537,362 556,361 583,377 625,385 670,379 704,366 702,335 " 
                             shape="polygon">
                         <area alt="database" title="database" href="" 
+                            onclick="showMenu('database_menu');"
                             coords="158,398 193,391 211,381 249,396 305,402 356,394 378,380 409,394 469,403 525,392 546,378 561,387 576,394 286,446 " 
                             shape="polygon">
                         <area alt="backend" title="backend" href="" 
+                            onclick="showMenu('backend_menu');"
                             coords="51,401 37,415 36,454 52,471 702,471 719,461 721,415 706,403 650,401 284,461 104,400 " 
                             shape="polygon">
                     </map>

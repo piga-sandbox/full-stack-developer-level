@@ -11,12 +11,42 @@ html, body {
 
 }
 
-#platforms_menu { 
+#platforms_menu, #frontend_menu, #protocols_menu, #apis_menu, #database_menu, #backend_menu { 
     display: none;
 } 
 
 #platforms_menu { 
     position: absolute; 
-    top: 570px; 
-    left: 700px;
+    top: 700px; 
+    left: 900px;
+} 
+
+#frontend_menu { 
+    position: absolute; 
+    top: 350px; 
+    left: 900px;
+} 
+
+#protocols_menu { 
+    position: absolute; 
+    top: 470px; 
+    left: 900px;
+} 
+
+#apis_menu { 
+    position: absolute; 
+    top: 520px; 
+    left: 900px;
+} 
+
+#database_menu { 
+    position: absolute; 
+    top: 590px; 
+    left: 820px;
+} 
+
+#backend_menu { 
+    position: absolute; 
+    top: 620px; 
+    left: 1100px;
 } 
